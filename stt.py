@@ -15,6 +15,7 @@ while True:
                 #listens for the user's input 
                 audio = r.listen(source)
         try:
+                #Uses PhocketSphinx in speechrecognition 
                 print(r.recognize_sphinx(audio,"jap"))
         except sr.UnknownValueError:
                 print("Sphinx could not understand audio")
