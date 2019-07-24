@@ -3,7 +3,6 @@ Speech recognition, in its version known as Speech to Text (STT), has also been 
 
 # Technology and Software Used:
 1) Python
-2) CMU Sphinx Trainer
 # Modules Used:
 1) Pocketsphinx (Provides Offline Speech Recognition based on acoustic model)
 2) PyAudio
